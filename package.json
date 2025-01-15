@@ -1,18 +1,22 @@
 {
     "name": "solpay-api-workspace",
     "version": "1.0.0",
+    "description": "NestJS API module for solpay",
+    "author": "develon",
+    "license": "MIT",
+    "repository": "We-blockchain/solpay-api",
+    "homepage": "https://github.com/We-blockchain/solpay-api",
     "scripts": {
-        "dev": "npm run start:dev --workspace=solpay-api-example",
+        "build-all": "npm run build --workspaces --if-present",
+        "publish-all": "npm publish --workspace=solpay-api & npm publish --workspace=solpay-api-example",
+        "example": "npm run start:dev --workspace=solpay-api-example",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
-    "license": "ISC",
     "workspaces": [
         "solpay-api",
         "solpay-api-example",
         ""
     ],
     "dependencies": {},
-    "devDependencies": {},
-    "description": ""
+    "devDependencies": {}
 }

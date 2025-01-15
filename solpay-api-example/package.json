@@ -1,10 +1,21 @@
 {
   "name": "solpay-api-example",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "private": true,
-  "license": "UNLICENSED",
+  "description": "NestJS API module for solpay",
+  "author": "develon",
+  "license": "MIT",
+  "repository": "We-blockchain/solpay-api",
+  "homepage": "https://github.com/We-blockchain/solpay-api",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src",
+    "test",
+    "dist",
+    "package.json",
+    "tsconfig.json"
+  ],
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
