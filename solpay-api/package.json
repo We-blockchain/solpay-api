@@ -1,6 +1,6 @@
 {
   "name": "solpay-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NestJS API module for solpay",
   "author": "develon",
   "license": "MIT",
